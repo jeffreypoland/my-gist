@@ -1,0 +1,23 @@
+h2 {
+	font-family:Arial,Helvetica,sans-serif;
+	display:block;
+	font-size:1.5em;
+	margin:.83em 0;
+}
+
+.sort-items {
+	margin-top:20px;
+}
+
+.sort-items div {
+	width:250px;
+	height:50px;
+	position:relative;
+	text-align:center;
+}
+
+.sort-items a {
+	line-height:50px;
+	color:#F0F0F0;
+	text-decoration:none;
+}
