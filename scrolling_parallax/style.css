@@ -1,0 +1,44 @@
+html,body {
+	height:100%;
+	margin:0;
+	padding:0
+}
+
+h2 {
+	font-family:Arial,Helvetica,sans-serif;
+	display:block;
+	font-size:1.5em;
+	padding:20% 0;
+	text-align:center
+}
+
+article {
+	background:#000;
+	background:rgba(0,0,0,0.7);
+	width:700px
+}
+
+.parallaxBackground {
+	color:#FFF;
+	margin:0 auto;
+	width:100%;
+	height:100%;
+	position:relative;
+	background-position:50% 0;
+	background-repeat:repeat;
+	background-attachment:fixed;
+	position:relative
+}
+
+.one {
+	background-image:url(https://raw.githubusercontent.com/jeffreypoland/reference-repo/master/scroll_parallax/img1.jpg)
+}
+
+.two {
+	background-image:url(https://raw.githubusercontent.com/jeffreypoland/reference-repo/master/scroll_parallax/img3.jpg);
+	background-repeat:no-repeat
+}
+
+.three {
+	background-image:url(https://raw.githubusercontent.com/jeffreypoland/reference-repo/master/scroll_parallax/img2.jpg)
+}
